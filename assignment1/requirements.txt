@@ -1,0 +1,8 @@
+ipykernel
+jupyterlab
+scikit-learn
+nltk
+numpy
+pandas
+nltk
+# python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
