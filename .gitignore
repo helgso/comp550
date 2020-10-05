@@ -1,5 +1,6 @@
 # Project specific
 /**/data/
+/assignment1/rt-polaritydata/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
