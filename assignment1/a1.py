@@ -72,7 +72,7 @@ def fit_vectorizer(X_data, tokenizer, stop_words, min_df):
     vectorizer.fit_transform(X_data)
     return vectorizer
 
-data_folder = 'E:/Repos/comp550/assignment1/data'
+data_folder = 'rt-polaritydata'
 positives_file = 'rt-polarity.pos'
 negatives_file = 'rt-polarity.neg'
 
