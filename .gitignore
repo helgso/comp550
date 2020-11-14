@@ -1,6 +1,7 @@
 # Project specific
-/**/data/
 /assignment1/rt-polaritydata/
+/assignment2/data/multilingual-all-words.en.xml
+/assignment2/data/wordnet.en.key
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
