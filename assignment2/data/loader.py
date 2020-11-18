@@ -67,8 +67,9 @@ def to_ascii(s):
     return codecs.encode(s, 'ascii', 'ignore')
 
 if __name__ == '__main__':
-    data_f = 'multilingual-all-words.en.xml'
-    key_f = 'wordnet.en.key'
+    data_folder = 'E:\\Repos\\comp550\\assignment2\\data'
+    data_f = f'{data_folder}\\multilingual-all-words.en.xml'
+    key_f = f'{data_folder}\\wordnet.en.key'
     dev_instances, test_instances = load_instances(data_f)
     dev_key, test_key = load_key(key_f)
     
